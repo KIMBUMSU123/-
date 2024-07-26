@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sunflower:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <title>김범수소개</title>
+    <style>
+      /*글꼴*/
+      .sunflower-light {
+        font-family: "Sunflower", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        margin-bottom: 10px;
+      }
+
+      /* 사이드바 */
+      .sidenav {
+        background-color: #f1f1f1;
+        position: fixed;
+        width: 200px;
+        height: 100%;
+        top: 50px;
+        left: 5px;
+        padding: 20px;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+      }
+      /* 이미지 */
+      img {
+        width: 200px;
+        height: 150px;
+        object-fit: fill;
+      }
+      /* 본문 */
+      .page {
+        margin-top: 50px;
+        margin-left: 230px;
+        padding: 20px;
+      }
+
+      /* 컨테이너 */
+      .container-fluid {
+        margin-top: 50px;
+      }
+
+      /* 예쁜 스타일 */
+      .sidenav h1 {
+        font-size: 24px;
+        margin-bottom: 20px;
+        color: #333;
+      }
+
+      .sidenav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .sidenav ul li {
+        margin: 10px 0;
+      }
+
+      .sidenav ul li a {
+        text-decoration: none;
+        color: #007bff;
+        padding: 10px;
+        display: block;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .sidenav ul li a:hover {
+        background-color: #e9ecef;
+      }
+
+      .page {
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .content {
+        display: flex;
+        align-items: center;
+      }
+
+      .content img {
+        margin-right: 20px;
+      }
+      /* 이미지 */
+      .gen {
+        width: 200px;
+        height: 200px;
+        object-fit: fill;
+      }
+      video {
+        width: 200px;
+        height: 150px;
+        object-fit: fill;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- 사이드바 -->
+      <nav class="col-sm-3 sidenav">
+        <h1>메뉴</h1>
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="./kbs.html">1. 자기소개</a></li>
+          <li><a href="./hobby.html">2. 취미생활</a></li>
+        </ul>
+      </nav>
+      <!-- 사이드바 끝 -->
+
+      <!-- 본문 -->
+      <div class="page">
+        <h1>취미소개</h1>
+        <h3>취미 1: 검도</h3>
+        <div class="content">
+          <img src="../myself/img/검도1.jpg" alt="Profile Image" class="gen" />
+          <div>
+            <ul>
+              <li class="sunflower-light"><b>소속: </b><b>대한검도</b></li>
+              <li class="sunflower-light">
+                <b>단: </b> <b>2단 (올해 3단 시험 예정)</b>
+              </li>
+              <li class="sunflower-light"><b>필살기: </b><b>허리치기</b></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="content">
+          <img src="../myself/img/검도2.jpg" alt="Profile Image" class="gen" />
+          <div>
+            <ul>
+              <li class="sunflower-light"><b>우승경력: </b><b>"0회"</b></li>
+              <li class="sunflower-light"><b>수상경력: </b></li>
+                <ul>
+              <li class="sunflower-light"><b>남동구 대회 단체전 "2위"</b></li>
+              <li class="sunflower-light"><b>남동구 대회 단체전 "3위"</b></li>
+              <li class="sunflower-light">
+                <b>영종도 대회 개인전 "3위"<8명 중></b>
+              </li>
+              <li class="sunflower-light"><b>열정 "1위"</b></li>
+            </ul>
+            </ul>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <h3>취미 2: 캠핑</h3>
+        <div class="content">
+          <video class="video" autoplay muted loop>
+            <source src="../myself/img/불멍.mp4" type="video/mp4" />
+          </video>
+          <div>
+            <ul>
+              <li class="sunflower-light"><b>불멍 좋아함</b></li>
+              <li class="sunflower-light"><b>고기 잘 구움</b></li>
+              <li class="sunflower-light"><b>설거지 장인</b></li>
+              <li class="sunflower-light"><b>라면 달인</b></li>
+          </div>
+        </div>
+        <br>
+        <hr>
+        <h3>취미 3: 게임(롤)</h3>
+        <div class="content">
+          <video class="video" autoplay muted loop>
+            <source src="../myself/img/다이아.mp4" type="video/mp4" />
+          </video>
+          <div>
+            <ul>
+              <li class="sunflower-light"><b>최고티어: 다이아</b></li>
+              <li class="sunflower-light"><b>현재티어: 플레티넘</b></li>
+              <li class="sunflower-light"><b>라인: 미드, 원딜</b></li>
+              <li class="sunflower-light"><b>강철멘탈</b></li>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </body>
+</html>
